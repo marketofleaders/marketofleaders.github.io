@@ -13,14 +13,14 @@
 .mfp-preloader {color: #ccc;position: absolute;top: 50%;width: auto;text-align: center;margin-top: -.8em;left: 8px;right: 8px;z-index: 1044;}
 .mfp-preloader a {color: #ccc;}
 .mfp-preloader a:hover {color: #fff;}
-button.mfp-close, button.mfp-arrow {overflow: visible;cursor: pointer;background: 0 0;border: 0;-webkit-appearance: none;display: block;outline: none;z-index: 1046;-webkit-box-shadow: none;box-shadow: none;padding: 0;}
+button.mfp-close, button.mfp-arrow {overflow: visible;cursor: pointer;background: transparent;border: 0;-webkit-appearance: none;display: block;outline: none;z-index: 1046;-webkit-box-shadow: none;box-shadow: none;padding: 0;}
 button::-moz-focus-inner {border: 0;padding: 0;}
 .mfp-close {width: 44px;height: 44px;line-height: 44px;position: absolute;right: 0;top: 0;text-decoration: none;text-align: center;opacity: .65;filter: alpha(opacity=65);color: #fff;font-style: normal;font-size: 28px;font-family: Arial,Baskerville,monospace;padding: 0 0 18px 10px;}
 .mfp-close:active {top: 1px;}
 .mfp-close-btn-in .mfp-close {color: #333;}
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {color: #fff;right: -6px;text-align: right;padding-right: 6px;width: 100%;}
 .mfp-counter {position: absolute;top: 0;right: 0;color: #ccc;font-size: 12px;line-height: 18px;white-space: nowrap;}
-.mfp-arrow {position: absolute;opacity: .65;filter: alpha(opacity=65);top: 50%;width: 90px;height: 110px;-webkit-tap-highlight-color: transparent;margin: -55px 0 0;padding: 0;}
+.mfp-arrow {position: absolute;opacity: .65;filter: alpha(opacity=65);top: 50%;width: 90px;height: 110px;-webkit-tap-highlight-color: rgba(0,0,0,0);margin: -55px 0 0;padding: 0;}
 .mfp-arrow:active {margin-top: -54px;}
 .mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a {content: "";display: block;width: 0;height: 0;position: absolute;left: 0;top: 0;margin-top: 35px;margin-left: 35px;border: medium inset transparent;}
 .mfp-arrow:after, .mfp-arrow .mfp-a {border-top-width: 13px;border-bottom-width: 13px;top: 8px;}

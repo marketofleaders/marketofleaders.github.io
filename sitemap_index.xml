@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//OFFLINEZIP.wpshowp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//mealinsider.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>http://OFFLINEZIP.wpshopost-sitemap.xml</loc>
+		<loc>https://mealinsider.com/post-sitemap.xml</loc>
 		<lastmod>2020-03-17T01:40:33+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://OFFLINEZIP.wpshopage-sitemap.xml</loc>
+		<loc>https://mealinsider.com/page-sitemap.xml</loc>
 		<lastmod>2019-11-30T22:48:10+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://OFFLINEZIP.wpshowp_quiz-sitemap.xml</loc>
+		<loc>https://mealinsider.com/wp_quiz-sitemap.xml</loc>
 		<lastmod>2020-03-17T02:05:19+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://OFFLINEZIP.wpshocategory-sitemap.xml</loc>
+		<loc>https://mealinsider.com/category-sitemap.xml</loc>
 		<lastmod>2020-03-17T01:40:33+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://OFFLINEZIP.wpshopost_tag-sitemap.xml</loc>
+		<loc>https://mealinsider.com/post_tag-sitemap.xml</loc>
 		<lastmod>2020-03-17T01:40:33+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://OFFLINEZIP.wpshoauthor-sitemap.xml</loc>
+		<loc>https://mealinsider.com/author-sitemap.xml</loc>
 		<lastmod>2019-10-10T23:02:11+00:00</lastmod>
 	</sitemap>
 </sitemapindex>

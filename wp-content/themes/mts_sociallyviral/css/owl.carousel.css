@@ -7,7 +7,7 @@
 @keyframes fadeOut {0% {opacity: 1;}
 	100% {opacity: 0;}}
 .owl-height {transition: height 500ms ease-in-out;}
-.primary-slider-container {margin-bottom: 30px;box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);}
+.primary-slider-container {margin-bottom: 30px;box-shadow: 0px 1px 2px 0px rgba(0,0,0,.05);}
 .widget.widget_mts_post_slider_widget .widget-title {margin-bottom: 0;}
 .widget.widget_mts_post_slider_widget .owl-item {padding-bottom: 0;}
 .owl-carousel {display: none;nowhitespace: afterproperty;width: 100%;-webkit-tap-highlight-color: transparent;position: relative;z-index: 1;}
@@ -35,10 +35,10 @@
 .owl-carousel .owl-video-tn {opacity: 0;height: 100%;background-position: center center;background-repeat: no-repeat;background-size: contain;transition: opacity 400ms ease;}
 .owl-carousel .owl-video-frame {position: relative;z-index: 1;}
 .slide-caption {overflow: hidden;background: #fff;color: #555;width: 100%;padding: 30px;float: none;max-height: 255px;position: absolute;bottom: 0;left: 0;max-width: 100%;-webkit-backface-visibility: hidden;box-sizing: border-box;}
-.slide-title {float: none;font-weight: 400;padding: 0;margin-bottom: 0;font-size: 24px;color: #555;}
+.slide-title {float: none;font-weight: normal;padding: 0;margin-bottom: 0;font-size: 24px;color: #555;}
 .owl-dots {position: absolute;bottom: 8%;right: 30px;text-align: center;box-sizing: border-box;}
 .owl-controls .owl-dot {display: inline-block;margin: 0 2px;zoom: 1;}
-.widget .owl-controls .owl-dot {box-shadow: 0 0 1px rgba(0,0,0,.25);}
+.widget .owl-controls .owl-dot {box-shadow: 0px 0px 1px rgba(0,0,0,.25);}
 .owl-controls .owl-dot span {display: block;width: 11px;height: 11px;background-color: #a5a5a5;cursor: pointer;}
 .owl-prev, .owl-next {position: absolute;display: inline-block;top: 0;text-align: center;font-size: 28px;width: 36px;line-height: 36px;color: #fff;}
 .owl-prev {left: 0;}
@@ -55,7 +55,7 @@
 .widget-slider {position: relative;}
 #sidebars .widget-slider .wp-post-image {width: 100%;margin: 0;}
 .widget_mts_post_slider_widget .owl-controls {bottom: 0;}
-.widget-slider .slide-caption {position: absolute;top: 0;top: auto;right: 0;left: 0;width: 100%;background: rgba(0,0,0,.3);padding: 15px;}
+.widget-slider .slide-caption {position: absolute;top: 0;top: auto;right: 0px;left: 0px;width: 100%;background: rgba(0,0,0,.3);padding: 15px;}
 .widget-slider .slide-caption .slide-title {font-size: 18px;color: #fff;}
 .widget-slider .owl-dots {right: -5px;padding: 0 8%;top: 15px;}
 .widget-slider .slider-title {overflow: hidden;bottom: 0;background: #444;color: #fff;box-sizing: border-box;padding: 10px;width: 100%;clear: both;}

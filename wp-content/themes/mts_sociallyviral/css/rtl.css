@@ -20,8 +20,8 @@ header {float: right;}
 .widget-header .textwidget {float: right;border-left: 0;border-right: 1px solid #ccc;padding-left: 0;padding-right: 20px;}
 .rtl #commentform .comment-form-cookies-consent label {margin-left: 0;margin-right: 8px;}
 .rtl .contact-form .mtscontact_consent label {margin-left: 0;margin-right: 4px;}
-.menu-item-has-children>a:after {right: auto;left: 25px;}
-.primary-navigation #navigation .menu-item-has-children>a {padding-right: 30px;padding-left: 38px;}
+.menu-item-has-children > a:after {right: auto;left: 25px;}
+.primary-navigation #navigation .menu-item-has-children > a {padding-right: 30px;padding-left: 38px;}
 .primary-navigation {float: left;text-align: right;}
 .primary-navigation a {text-align: right;}
 .primary-navigation #navigation {float: right;}
@@ -29,7 +29,7 @@ header {float: right;}
 .primary-navigation #navigation ul ul li {border-left: 0;}
 .primary-navigation #navigation ul ul a, .primary-navigation #navigation ul ul a:link, .primary-navigation #navigation ul ul a:visited {padding: 13px 20px 13px 45px;}
 .navigation ul ul {left: 0;}
-#primary-navigation .menu-item-has-children>a {padding-right: 30px;padding-left: 38px;}
+#primary-navigation .menu-item-has-children > a {padding-right: 30px;padding-left: 38px;}
 #navigation ul ul ul {left: auto;right: 255px;}
 .primary-navigation #navigation i {margin-left: 4px;margin-right: auto;}
 #sidebar .widget_nav_menu .toggle-caret {right: auto;left: 0;}
@@ -37,10 +37,10 @@ header {float: right;}
 .navigation {float: right;}
 .article, #content_box, .post, .single_page, .post-content, .readMore, .wp-post-image, .featured-thumbnail, #featured-thumbnail, .single-title, .post-info {float: right;}
 .single_post .thecategory {margin-right: 0;float: right;}
-.post-info>span, .widget .vertical-small .post-info>span {margin-right: 0;margin-left: 35px;display: inline-block;}
-.post-info>span:last-child {margin-left: 0;}
+.post-info > span, .widget .vertical-small .post-info > span {margin-right: 0;margin-left: 35px;display: inline-block;}
+.post-info > span:last-child {margin-left: 0;}
 .post-info i {margin-right: 0;margin-left: 3px;}
-.widget .post-info>span {margin-right: 0;margin-left: 15px;}
+.widget .post-info > span {margin-right: 0;margin-left: 15px;}
 .thecategory {margin-left: 0;margin-right: 5px;}
 article header {float: right;}
 .single-prev-next {float: left;}
@@ -52,12 +52,12 @@ article header {float: right;}
 .article ul, .article ol {margin-right: 1.9em;margin-left: 0;}
 .article .iconlist {margin-right: 0;}
 .widget .fb_iframe_widget {float: right;}
-.widget.mts_googleplus>div {float: right !important;}
-.widget_nav_menu .fa>a, .widget_nav_menu .fa>a {padding-left: 0;padding-right: 5px;}
+.widget.mts_googleplus > div {float: right !important;}
+.widget_nav_menu .fa > a, .widget_nav_menu .fa > a {padding-left: 0;padding-right: 5px;}
 table, table th, table td {text-align: right;}
 #searchform, #searchform fieldset {float: right;}
-#search-image.sbutton, #searchsubmit {left: 0;float: left;right: auto;}
-#searchform .fa-search {left: 0;right: auto;}
+#search-image.sbutton, #searchsubmit {left: 0px;float: left;right: auto;}
+#searchform .fa-search {left: 0px;right: auto;}
 #s {float: right;}
 input::-webkit-input-speech-button {margin-left: 14px;margin-right: 4px;}
 .breadcrumb {float: right;}
@@ -101,9 +101,9 @@ span.author-posts {float: left;}
 .right {float: left;}
 .last {margin-left: 0;}
 .tagcloud a {float: right;margin-left: 3px;margin-right: 0;}
-.mts-subscribe input[type=text] {float: right;}
+.mts-subscribe input[type="text"] {float: right;}
 #mts_subscribe_widget {border: 1px solid #f1f1f1 !important;}
-.mts-subscribe input[type=submit] {float: left;left: 0;right: auto;}
+.mts-subscribe input[type="submit"] {float: left;left: 0;right: auto;}
 .ad-125 ul {float: right;}
 .ad-125 li {float: right;padding-right: 0;margin-right: 0;}
 .ad-125 li:nth-child(2n+2) {float: left !important;}
@@ -167,7 +167,7 @@ span#mts-user-reviews-counter {float: none;}
 .widget .wp-review-tab-pagination a.next {float: left;}
 .widget .wp-review-tab-pagination a.prev {float: right;}
 .bar-point .review-result, .percentage-point .review-result {left: auto;right: 0;}
-@media screen and (max-width:480px) {.featured-thumbnail {width: 100%;}}
-@media screen and (max-width:865px) {a#pull {float: left;padding-left: 15px;}
-	#primary-navigation .menu-item-has-children>a {padding-left: 0;}
+@media screen and (max-width: 480px) {.featured-thumbnail {width: 100%;}}
+@media screen and (max-width: 865px) {a#pull {float: left;padding-left: 15px;}
+	#primary-navigation .menu-item-has-children > a {padding-left: 0;}
 	#primary-navigation li a {padding-left: 30px !important;}}
