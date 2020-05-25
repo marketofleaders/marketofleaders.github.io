@@ -29,7 +29,8 @@
 				url: ajaxurl, 
 				method: 'post',
 				data: {
-					'action' : 'mts_get_debug_log'
+					'action': 'mts_get_debug_log',
+					'_ajax_nonce': $('#mts_debug_nonce').val()
 				},
 				success: function(data) {
 					$('#mts-debug-data-field').val( data ).prop( 'disabled', false );

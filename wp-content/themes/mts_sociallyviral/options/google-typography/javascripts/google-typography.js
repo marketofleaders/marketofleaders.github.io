@@ -30,7 +30,8 @@
 					                page_limit: 25, // page size
 					                page: page,
 					                current: cur,
-					                action: "get_fonts"
+					                action: "get_fonts",
+					                _ajax_nonce: jQuery('#mts_fonts_nonce').val()
 					            };
 					        },
 					        results: function (data, page) {
@@ -212,7 +213,8 @@
 					url: ajaxurl,
 					data: {
 						'action' : 'get_google_font_variants',
-						'font_family' : font
+						'font_family' : font,
+						'_ajax_nonce': jQuery('#mts_fonts_nonce').val()
 					},
 					success: function(data) {
 						variants.find("option").remove();
@@ -281,7 +283,7 @@
 			jQuery.ajax({
 				url: ajaxurl, 
 				method: 'post',
-				data: {  'action' : 'save_user_fonts',  'collections' : collectionData },
+				data: {  'action' : 'save_user_fonts',  'collections' : collectionData, '_ajax_nonce': jQuery('#mts_fonts_nonce').val() },
 				success: function(data) {
 					
 					if(showLoading != false) {
@@ -374,7 +376,7 @@
     		typography_isloaded = true;
             $.ajax({
     			url: ajaxurl, 
-    			data: {  'action' : 'get_user_fonts' },
+    			data: {  'action' : 'get_user_fonts', '_ajax_nonce': jQuery('#mts_fonts_nonce').val() },
     			beforeSend: function() {
     				container.find(".loading").show();
     				container.find(".collections").hide();
@@ -443,7 +445,7 @@
 				$.ajax({
 					url: ajaxurl, 
 					method: 'post',
-					data: {  'action' : 'reset_user_fonts' },
+					data: {  'action' : 'reset_user_fonts', '_ajax_nonce': jQuery('#mts_fonts_nonce').val() },
 					success: function(data) {
 						if(data.success == true) {
 							changeWarn = false;

@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
 		if ($this.parent().hasClass('active'))
 			return false;
 		var relid = jQuery(this).attr('data-rel');
-		
+
 		jQuery('.nhp-opts-group-tab').hide();
 		jQuery('#'+relid+'_section_group').fadeIn(400);
 
@@ -60,7 +60,7 @@ jQuery(document).ready(function($){
 		var currentTabID = jQuery(this).find('#nhp-opts-group-menu li.active a').attr('data-rel');
 		jQuery('#last_tab').val(currentTabID);
 	});
-	
+
 
 	if(jQuery('#nhp-opts-save').is(':visible')){
 		jQuery('#nhp-opts-save').delay(4000).slideUp('slow');
@@ -79,15 +79,15 @@ jQuery(document).ready(function($){
 				.addHiddenField(nhpopts.opt_name+'[google_typography_collections]['+i+'][backup_font]', jQuery(this).find(".backup_font").select2('val'))
 				.addHiddenField(nhpopts.opt_name+'[google_typography_collections]['+i+'][default]', jQuery(this).attr("data-default"))
 				.addHiddenField(nhpopts.opt_name+'[google_typography_collections]['+i+'][collection_title]', jQuery(this).find(".collection_title").val());
-			
+
 			i++;
 		});
 	}
-	
+
 	if(jQuery('#nhp-opts-imported').is(':visible')){
 		jQuery('#nhp-opts-imported').delay(4000).slideUp('slow');
 	}
-	
+
 	jQuery('#nhp-opts-footer').find('#savechanges').click(function(e) {
 		// add typography data via hidden fields before submitting
 		if (typography_isloaded) {
@@ -125,7 +125,7 @@ jQuery(document).ready(function($){
 			return nhpopts.leave_page_confirm;
 		}
 	}
-	
+
 	jQuery('#nhp-opts-import-code-button').click(function(e){
 		e.preventDefault();
 		jQuery('#nhp-opts-import-code-wrapper').toggle().find('#import-code-value').val('');
@@ -135,7 +135,7 @@ jQuery(document).ready(function($){
 		e.preventDefault();
 		jQuery('#nhp-opts-export-code').toggle().select();
 	});
-	
+
 	// Presets
 	function scrollImportLogToBottom(){
 		var element = document.getElementById("importing-modal-content");
@@ -303,7 +303,7 @@ jQuery(document).ready(function($){
 			return url;
 		}
 	}
-	
+
 	jQuery('#importing-modal-footer-button').on('click', function(e) {
 		e.preventDefault();
 		jQuery(this).prop('disabled', true ).text(nhpopts.reloading_page);
@@ -311,29 +311,29 @@ jQuery(document).ready(function($){
 		window.location.href = a;
 	});
 
-	
+
 	// Confirm import
 	jQuery('#nhp-opts-import').click(function() {
 		return confirm(nhpopts.import_confirm);
 	});
-	
+
 	// Confirm reset
 	jQuery('input[name="'+nhpopts.opt_name+'[defaults]"]').click(function() {
 		return confirm(nhpopts.reset_confirm);
 	});
-	
+
 	// Disallow submission by enter key
 	jQuery('#nhp-opts-form-wrapper').find('input').keydown(function(event){
 		if ( event.keyCode == 13 ){
 			event.preventDefault();
 		}
 	});
-	
+
 	// Floating footer
 	var $footer = jQuery('#nhp-opts-footer');
 	var $bottom = jQuery('#nhp-opts-bottom');
-	
-	
+
+
 	$footer.addClass('floating');
 	jQuery(document).on('scroll', function(){
 		if ($bottom.isOnScreen()) {
@@ -345,7 +345,7 @@ jQuery(document).ready(function($){
 	if ($bottom.isOnScreen()) {
 		$footer.removeClass('floating');
 	}
-	
+
 	// Needs JS sizing when position:fixed
 	var footer_padding = $footer.innerWidth() - $footer.width();
 	function resizeFloatingElements() {
@@ -353,7 +353,7 @@ jQuery(document).ready(function($){
 		$footer.width(w - footer_padding);
 	}
 	resizeFloatingElements();
-	
+
 	var resizeTimer;
 	jQuery(window).resize(function() {
 		clearTimeout(resizeTimer);
@@ -371,11 +371,12 @@ jQuery(document).ready(function($){
 			alert( nhpopts.child_theme_name_empty );
 		} else {
 			jQuery.ajax({
-				url: ajaxurl, 
+				url: ajaxurl,
 				method: 'post',
 				data: {
 					'action' : 'mts_child_theme',
-					'child_name' : childNameVal
+					'child_name' : childNameVal,
+					'_ajax_nonce': $('#mts_child_theme_nonce').val()
 				},
 				beforeSend: function() {
 					elem.prop('disabled', true);
@@ -391,13 +392,13 @@ jQuery(document).ready(function($){
 	});
 	// Refresh the existing child themes list
 	function mtsUpdateChildThemesList() {
-		jQuery.post( ajaxurl, { action: 'mts_list_child_themes' }, function( response ) {
+		jQuery.post( ajaxurl, { action: 'mts_list_child_themes', '_ajax_nonce': $('#mts_child_theme_nonce').val() }, function( response ) {
 			if ( response ) {
 				jQuery('#child-theme-list-wrap').html( response );
 			}
 		});
 	}
-	
+
 	$('#search-theme-options').keydown(function(e) {
 		if (e.keyCode == 27) {
 			clear_search( true );
@@ -454,7 +455,7 @@ jQuery(document).ready(function($){
 
 			//var $title = $contents.find('h2');
 			//var $desc = $contents.find('.nhp-opts-section-desc');
-			
+
 			$contents.children('table').children('tbody').children('tr').each(function(index, el) {
 				var $row = $(this);
 				$row.hide();
@@ -547,7 +548,7 @@ jQuery.fn.addHiddenField = function(name, value) {
 			var input = jQuery("<input>").attr("type", "hidden").attr("id", elem_id).attr("name", name).val(value);
 			jQuery(this).append(jQuery(input));
 		}
-		
+
 	});
 	return this;
 };

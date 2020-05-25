@@ -1,5 +1,4 @@
-.mashsb-buttons a.mash-center, .mashsb-count, .onoffswitch, .onoffswitch2 {text-align: center;}
-.onoffswitch, .onoffswitch2 {-ms-user-select: none;margin-left: 0;-webkit-user-select: none;-moz-user-select: none;}
+.mashsb-buttons a.mash-center, .mashsb-count {text-align: center;}
 .mashsb-buttons .secondary-shares a .text {text-indent: -9999px;line-height: 0;display: block;}
 .mashsb-buttons .secondary-shares a .text:after {content: " ";text-indent: 0;font-size: 13px;display: block;}
 .mashsb-buttons .secondary-shares a {min-width: 0;display: block;}
@@ -91,18 +90,18 @@
 .mashsb-count.mash-medium {font-size: 30px;margin-top: 5px;}
 .mashsb-count.mash-small {font-size: 20px;margin-top: 1px;}
 .mashsb-sharetext {font-size: 11px;font-family: Arial,sans-serif;color: #8a8c8e;}
-.onoffswitch, .onoffswitch2 {margin-bottom: 3px;color: #fff;}
 .mashsb-toggle-container {display: none;padding: 11px 2% 8px;border: 10px solid #fff120;position: relative;margin-bottom: 10px;margin-top: 0;}
 [class*=" mashicon-"], [class^=mashicon-] {position: relative;display: inline-block;}
 [class*=" mashicon-"] .text, [class^=mashicon-] .text {padding: 0;margin: 0;}
+.onoffswitch, .onoffswitch2 {position: relative;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;float: left;margin-bottom: 3px;margin-left: 0;cursor: pointer;background-color: #c5c5c5;color: #fff;text-align: center;display: inline-block;}
 [class*=" mashicon-"] .text:after, [class^=mashicon-] .text:after {line-height: 10px;}
 .mashsb-box {line-height: 1;}
 .mashsb-count>.counts {clear: both;}
-.onoffswitch {position: relative;display: inline-block;float: left;margin-right: 0;cursor: pointer;background-color: #c5c5c5;width: 42px;height: 42px;line-height: 42px;}
+.onoffswitch {margin-right: 0;width: 42px;height: 42px;line-height: 42px;}
 .onoffswitch.mash-medium {width: 36px;height: 36px;line-height: 36px;}
 .onoffswitch.mash-small {width: 28px;height: 28px;line-height: 28px;}
 .onoffswitch:before {content: "+";display: inline-block;font-weight: 700;font-size: 30px;font-family: arial;vertical-align: middle;}
-.onoffswitch2 {position: relative;display: inline-block;float: left;margin-right: 3px;cursor: pointer;background-color: #c5c5c5;width: 42px;height: 42px;line-height: 42px;}
+.onoffswitch2 {margin-right: 3px;width: 42px;height: 42px;line-height: 42px;}
 .onoffswitch2.mash-medium {width: 36px;height: 36px;line-height: 36px;}
 .onoffswitch2.mash-small {width: 28px;height: 28px;line-height: 28px;}
 .onoffswitch2:before {content: "-";display: inline-block;font-weight: 700;font-size: 30px;font-family: arial;vertical-align: super;}
