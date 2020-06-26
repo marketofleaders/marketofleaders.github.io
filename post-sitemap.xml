@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://mealinsider.com/</loc>
-		<lastmod>2020-03-17T01:40:33+00:00</lastmod>
+		<lastmod>2020-06-20T04:57:40+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://mealinsider.com/salads-of-summer/</loc>
@@ -647,6 +647,23 @@
 			<image:loc>https://mealinsider.com/wp-content/uploads/2020/02/casual-drinker.jpg</image:loc>
 			<image:title><![CDATA[casual-drinker]]></image:title>
 			<image:caption><![CDATA[casual-drinker]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://mealinsider.com/worlds-first-apple-cider-vinegar-gummy/</loc>
+		<lastmod>2020-06-20T04:57:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://mealinsider.com/wp-content/uploads/2020/03/goli-promo.jpg</image:loc>
+			<image:title><![CDATA[goli-promo]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://mealinsider.com/wp-content/uploads/2020/06/goli.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://mealinsider.com/wp-content/uploads/2020/06/goli2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://mealinsider.com/wp-content/uploads/2020/06/goli3.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>

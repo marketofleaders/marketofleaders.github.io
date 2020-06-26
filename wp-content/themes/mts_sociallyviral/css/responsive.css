@@ -64,7 +64,7 @@ html.noscroll {position: static;overflow-y: auto;width: auto;}
 	.navigation ul ul a {padding: 9px 30px !important;}
 	.navigation ul ul ul a {padding: 9px 27px !important;}
 	.navigation ul ul ul ul a {padding: 9px 20px 9px 40px !important;}
-	.navigation .toggle-caret {display: block;width: 42px;height: 42px;line-height: 42px;color: #fff;border-left: 1px solid rgba(0,0,0,.1);position: absolute;right: 0;top: 0;text-align: center;z-index: 99;cursor: pointer;}
+	.navigation .toggle-caret {display: block;width: 42px;height: 42px;line-height: 42px;color: #000;border-left: 1px solid rgba(0,0,0,.1);position: absolute;right: 0;top: 0;text-align: center;z-index: 99;cursor: pointer;}
 	.navigation .menu-item-has-children.active > .toggle-caret i:before {content: "";}
 	.navigation .menu-item-has-children > a:after {content: "";}
 	#wpmm-megamenu .wpmm-subcategories {width: 100%;text-indent: 0;}
