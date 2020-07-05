@@ -386,7 +386,7 @@ footer .widget > div, footer .widget > ul, footer .widget.social-profile-icons .
 .social-profile-icons .social-vimeo a {background: #35c6ea;}
 .social-profile-icons .social-dribbble a {background: #f7659c;}
 .social-profile-icons .social-tumblr a {background: #426d9b;}
-.social-profile-icons .social-instagram a {background: #91653f;}
+.social-profile-icons .social-instagram a {background: #c13584;}
 .social-profile-icons .social-flickr a {background: #ff48a3;}
 .social-profile-icons .social-pinterest a {background: #e13138;}
 .social-profile-icons .social-linkedin a {background: #238cc8;}
@@ -535,7 +535,6 @@ form#commentform {overflow: hidden;border: 1px solid #e9e9e9;padding: 30px;width
 .cancel-comment-reply a {float: right;margin-top: -8px;}
 .required {color: red;padding: 0;line-height: 1;}
 .comment-notes .required {padding-left: 0;padding-top: 3px;}
-.comment-notes {font-style: italic;}
 .pagination {clear: both;overflow: hidden;float: left;width: 100%;margin-top: 0;margin-bottom: 30px;padding: 20px;background: #fff;box-shadow: 0px 1px 2px 0px rgba(0,0,0,.05);box-sizing: border-box;}
 .single .pagination {border: 0;box-shadow: none;-moz-box-shadow: none;-webkit-box-shadow: none;margin-top: 0;padding: 0 0 30px;width: 100%;margin-bottom: 10px;}
 .pagination ul {list-style: none;margin: 0;}
@@ -554,6 +553,7 @@ form#commentform {overflow: hidden;border: 1px solid #e9e9e9;padding: 30px;width
 .single .pagination a:hover .currenttext {color: #fff;}
 .single .post-single-content .pagination a:hover .currenttext {padding: 0;min-width: auto;margin: 0;float: none;background: transparent;}
 .mts-archive-description {margin-top: -15px;margin-bottom: 40px;}
+.comment-notes {font-style: italic;}
 .contact-form {position: relative;}
 .contact-form.loading:after {content: "";display: block;position: absolute;width: 100%;height: 100%;top: 0;left: 0;background: rgba(255,255,255,.8);}
 .contact-form label, .contact-form input, .contact-form textarea {display: block;width: 100%;box-sizing: border-box;}
